@@ -1,0 +1,358 @@
+# Curation ledger. One line per candidate couplet:
+#   <index> <couplet id> <code> <musical lemmas, comma-separated, or -> <short note>
+# code: 1 = musical sense (included) | 0 = non-musical sense (excluded) | 2 = borderline (excluded until promoted)
+# The index refers to the order in scripts/cache/candidates.json (verified against the id on every build).
+0 ghazal/sh2#3 1 رباب,سماع,نغمه
+1 ghazal/sh3#5 0 - veil of chastity
+2 ghazal/sh3#8 1 مطرب
+3 ghazal/sh4#8 1 سرود,رقص Venus' song makes Jesus dance
+4 ghazal/sh5#1 0 - verb 'goes'
+5 ghazal/sh7#2 0 - behind the curtain (secret)
+6 ghazal/sh11#1 1 مطرب
+7 ghazal/sh16#8 1 مطرب
+8 ghazal/sh19#8 1 مطرب
+9 ghazal/sh20#2 2 طرب merrymaking, no direct musical reference
+10 ghazal/sh22#4 1 مطرب,پرده pun on veil/mode
+11 ghazal/sh22#9 1 ساز,مطرب,پرده
+12 ghazal/sh26#3 2 آواز plain speaking voice
+13 ghazal/sh29#8 1 رباب,چنگ
+14 ghazal/sh30#6 1 سماع,مطرب,پرده
+15 ghazal/sh34#3 2 بانگ nightingale's song (gol-bang)
+16 ghazal/sh34#9 1 سرود,رقص
+17 ghazal/sh35#3 1 نی ney simile
+18 ghazal/sh41#1 1 بانگ,چنگ
+19 ghazal/sh41#2 0 - 'comes to hand'
+20 ghazal/sh43#3 2 بانگ nightingale; ahang/saz are verbs here
+21 ghazal/sh46#4 1 نی,نغمه,چنگ
+22 ghazal/sh53#2 1 چنگ
+23 ghazal/sh53#5 0 - 'or else'
+24 ghazal/sh54#7 0 - river / beloved child
+25 ghazal/sh56#5 0 - chamberlain
+26 ghazal/sh56#9 2 طرب abstract joy
+27 ghazal/sh58#1 0 - verb 'goes'
+28 ghazal/sh64#6 0 - curtain of grape skin
+29 ghazal/sh65#6 0 - veil / chamberlain
+30 ghazal/sh69#12 0 - claw/hand (possible pun on harp)
+31 ghazal/sh73#3 0 - exposing secrets
+32 ghazal/sh73#6 0 - 'or else'
+33 ghazal/sh73#8 0 - secret out of the veil
+34 ghazal/sh79#7 0 - verb 'goes'
+35 ghazal/sh80#5 0 - behind the veil
+36 ghazal/sh80#6 0 - veil of piety
+37 ghazal/sh86#1 0 - unveiled
+38 ghazal/sh88#7 0 - verb
+39 ghazal/sh88#8 0 - Dastan = Zal
+40 ghazal/sh89#1 0 - verb 'make'
+41 ghazal/sh90#8 1 مطرب,ساز
+42 ghazal/sh90#10 1 سرود song of our gathering
+43 ghazal/sh98#3 0 - 'bow-like' eyebrow (kamancheh = small bow)
+44 ghazal/sh100#4 0 - verb
+45 ghazal/sh101#10 1 چنگ,طرب
+46 ghazal/sh103#2 0 - cry of a toast
+47 ghazal/sh103#5 0 - river
+48 ghazal/sh111#9 1 رقص
+49 ghazal/sh117#7 2 طرب abstract joy
+50 ghazal/sh119#4 2 طرب abstract joy
+51 ghazal/sh123#1 1 ساز,مطرب,نغمه
+52 ghazal/sh123#2 1 آهنگ melodious
+53 ghazal/sh124#3 0 - veil of hair
+54 ghazal/sh125#9 0 - pitching a tent
+55 ghazal/sh126#5 1 چنگ
+56 ghazal/sh127#9 0 - 'not only'
+57 ghazal/sh128#7 0 - lowing of the golden calf
+58 ghazal/sh128#9 0 - verb
+59 ghazal/sh133#4 1 آهنگ,ساز,مطرب Iraq/Hijaz modes
+60 ghazal/sh134#5 2 طرب 'house of joy'
+61 ghazal/sh136#5 1 سماع
+62 ghazal/sh137#5 1 بربط
+63 ghazal/sh138#8 1 مطرب,پرده
+64 ghazal/sh138#9 1 سرود mode Iraq
+65 ghazal/sh141#5 0 - veil of secrets
+66 ghazal/sh142#2 0 - from behind the curtain
+67 ghazal/sh142#3 1 مطرب
+68 ghazal/sh142#5 1 طرب singing bird
+69 ghazal/sh144#2 1 مطرب
+70 ghazal/sh144#7 0 - veil
+71 ghazal/sh145#2 1 مطرب
+72 ghazal/sh145#3 1 نغمه,ساز chang here = hand
+73 ghazal/sh145#6 2 طرب glad tidings
+74 ghazal/sh146#5 1 مطرب
+75 ghazal/sh147#2 1 مطرب
+76 ghazal/sh150#6 0 - curtain of night
+77 ghazal/sh152#7 2 طرب letter of joy
+78 ghazal/sh153#3 1 رقص
+79 ghazal/sh154#1 1 ساز
+80 ghazal/sh154#2 0 - shout of triumph
+81 ghazal/sh157#5 0 - come out from behind the curtain
+82 ghazal/sh158#5 1 دف,چنگ
+83 ghazal/sh160#6 0 - verb
+84 ghazal/sh161#6 0 - 'veil-sitter'
+85 ghazal/sh163#3 1 رقص,صوت dance of the cypress; nightingale's voice
+86 ghazal/sh164#8 1 سرود,مطرب
+87 ghazal/sh165#4 1 دف,نی saz-e shar' is figurative
+88 ghazal/sh166#4 0 - veil of the unseen
+89 ghazal/sh167#6 2 طرب 'house of joy'
+90 ghazal/sh169#7 2 بانگ cry of a bird
+91 ghazal/sh169#8 1 ساز Venus' instrument
+92 ghazal/sh172#5 0 - sound of a question
+93 ghazal/sh173#8 1 مطرب
+94 ghazal/sh174#2 1 نغمه Davidic song
+95 ghazal/sh174#6 2 آواز sound of the caravan bell
+96 ghazal/sh175#1 2 طرب season of joy
+97 ghazal/sh175#8 0 - verb
+98 ghazal/sh178#2 0 - veil
+99 ghazal/sh178#9 1 مطرب
+100 ghazal/sh179#3 0 - chamberlain
+101 ghazal/sh179#5 1 سرود
+102 ghazal/sh180#3 0 - river / child
+103 ghazal/sh181#2 1 مطرب,رقص
+104 ghazal/sh184#5 1 رقص
+105 ghazal/sh185#6 1 رقص,نی
+106 ghazal/sh186#6 1 مطرب,پرده
+107 ghazal/sh189#7 2 طرب 'banquet of joy'
+108 ghazal/sh191#2 1 بانگ,نی
+109 ghazal/sh191#9 0 - 'intend/aim'
+110 ghazal/sh193#5 1 مطرب
+111 ghazal/sh196#6 0 - behind the curtain / verb
+112 ghazal/sh197#6 1 سماع
+113 ghazal/sh198#8 0 - verb
+114 ghazal/sh200#1 1 چنگ
+115 ghazal/sh200#5 0 - behind the curtain
+116 ghazal/sh202#5 1 چنگ
+117 ghazal/sh203#6 1 مطرب
+118 ghazal/sh203#7 2 طرب joy
+119 ghazal/sh204#4 2 طرب 'candle of joy'
+120 ghazal/sh205#4 0 - veil of the unseen
+121 ghazal/sh215#2 1 صوت,دف,نی
+122 ghazal/sh216#3 0 - exposing secrets
+123 ghazal/sh216#5 0 - clutches (hand)
+124 ghazal/sh219#2 1 دف,چنگ,نی,نغمه
+125 ghazal/sh219#3 1 چنگ
+126 ghazal/sh219#7 1 نغمه
+127 ghazal/sh220#1 0 - verb
+128 ghazal/sh220#2 0 - verb
+129 ghazal/sh220#3 0 - verb
+130 ghazal/sh220#4 0 - verb (radif) / not musical
+131 ghazal/sh220#5 0 - verb (radif) / not musical
+132 ghazal/sh220#6 0 - verb (radif) / not musical
+133 ghazal/sh220#7 0 - verb (radif) / not musical
+134 ghazal/sh221#1 0 - verb (radif) / not musical
+135 ghazal/sh221#2 0 - verb (radif) / not musical
+136 ghazal/sh221#3 0 - verb (radif) / not musical
+137 ghazal/sh221#4 0 - verb (radif) / not musical
+138 ghazal/sh221#5 0 - verb (radif) / not musical
+139 ghazal/sh221#6 0 - verb (radif) / not musical
+140 ghazal/sh221#7 0 - verb (radif) / not musical
+141 ghazal/sh221#8 0 - verb (radif) / not musical
+142 ghazal/sh223#6 0 - verb (radif) / not musical
+143 ghazal/sh225#1 0 - verb (radif) / not musical
+144 ghazal/sh225#2 0 - verb (radif) / not musical
+145 ghazal/sh225#3 0 - verb (radif) / not musical
+146 ghazal/sh225#4 0 - verb (radif) / not musical
+147 ghazal/sh225#5 0 - verb (radif) / not musical
+148 ghazal/sh225#6 0 - verb (radif) / not musical
+149 ghazal/sh225#7 0 - verb (radif) / not musical
+150 ghazal/sh225#8 0 - verb (radif) / not musical
+151 ghazal/sh226#1 0 - exposing secrets
+152 ghazal/sh227#6 0 - verb make
+153 ghazal/sh229#3 0 - veil
+154 ghazal/sh232#2 0 - verb
+155 ghazal/sh235#3 0 - verb
+156 ghazal/sh236#7 1 چنگ
+157 ghazal/sh237#4 0 - or else
+158 ghazal/sh238#4 1 رباب,چنگ
+159 ghazal/sh240#1 1 مطرب
+160 ghazal/sh241#2 1 صوت,نغمه,چنگ
+161 ghazal/sh241#3 1 سرود
+162 ghazal/sh241#5 0 - verb
+163 ghazal/sh243#10 1 بانگ,چنگ
+164 ghazal/sh244#3 1 بانگ,رباب,چنگ
+165 ghazal/sh244#4 0 - veil
+166 ghazal/sh245#3 0 - unveil
+167 ghazal/sh245#5 1 رقص,مطرب,پرده
+168 ghazal/sh246#8 0 - veil-covering
+169 ghazal/sh246#9 0 - verb
+170 ghazal/sh246#10 0 - verb
+171 ghazal/sh252#7 1 دف,نی dastan = tale; couplet musical via daf and ney
+172 ghazal/sh254#1 2 بانگ nightingale sang (gol-bang)
+173 ghazal/sh254#4 2 طرب joy
+174 ghazal/sh254#6 1 بانگ,چنگ
+175 ghazal/sh255#5 0 - behind the curtain
+176 ghazal/sh256#4 1 رود rudi = rud player/instrument
+177 ghazal/sh256#7 0 - verb
+178 ghazal/sh257#4 1 چنگ
+179 ghazal/sh257#5 1 رقص,سماع
+180 ghazal/sh257#8 2 طرب joy
+181 ghazal/sh258#9 1 آواز Hafez sings in a mode (avaz)
+182 ghazal/sh259#7 1 بانگ Hijaz and Iraq modes
+183 ghazal/sh260#3 0 - verb: burn and endure
+184 ghazal/sh262#6 1 پرده,چنگ chang speaks behind the veil/mode
+185 ghazal/sh264#1 2 طرب wine of joy
+186 ghazal/sh265#5 0 - verb
+187 ghazal/sh265#9 0 - verb
+188 ghazal/sh267#1 0 - river Aras
+189 ghazal/sh267#2 2 بانگ bell sound of the caravan
+190 ghazal/sh267#4 1 رباب
+191 ghazal/sh270#3 0 - verb
+192 ghazal/sh275#2 1 آهنگ,چنگ
+193 ghazal/sh276#8 1 آواز,رود wine without the sound of the rud
+194 ghazal/sh278#3 1 چنگ Venus the harpist
+195 ghazal/sh280#7 0 - trickery
+196 ghazal/sh283#3 1 صوت,چنگ
+197 ghazal/sh283#4 0 - cry of cheers
+198 ghazal/sh285#4 0 - keep the secret
+199 ghazal/sh286#3 1 بربط,رقص
+200 ghazal/sh286#4 1 چنگ ney = not; chang simile
+201 ghazal/sh286#5 2 پرده veil/mode pun?
+202 ghazal/sh287#7 0 - verb
+203 ghazal/sh291#3 1 سرود nightingale singing
+204 ghazal/sh292#4 1 رقص,سماع,چنگ
+205 ghazal/sh293#3 1 ساز,آهنگ,سماع
+206 ghazal/sh293#4 1 چنگ
+207 ghazal/sh296#1 2 طرب joy
+208 ghazal/sh296#6 1 دف,چنگ
+209 ghazal/sh300#4 0 - verb
+210 ghazal/sh303#3 0 - veil
+211 ghazal/sh303#4 0 - curtain
+212 ghazal/sh304#6 1 رقص,سماع,طرب
+213 ghazal/sh305#2 0 - ney-am = I am not
+214 ghazal/sh309#2 1 مطرب
+215 ghazal/sh312#3 0 - aim/heading
+216 ghazal/sh320#5 1 چنگ
+217 ghazal/sh320#7 1 صوت,سرود
+218 ghazal/sh322#8 0 - veil of heart
+219 ghazal/sh324#2 2 طرب joy
+220 ghazal/sh324#3 1 مطرب,پرده pun on pardeh
+221 ghazal/sh324#4 0 - precinct/veil
+222 ghazal/sh324#5 0 - reed pen
+223 ghazal/sh326#2 0 - loud voice
+224 ghazal/sh329#15 0 - neither
+225 ghazal/sh329#16 2 طرب cup-bearers of joy
+# overrides (last line for an index wins): nightingale songs count as singing
+15 ghazal/sh34#3 1 بانگ nightingale sings (gol-bang)
+20 ghazal/sh43#3 1 بانگ nightingale; ahang/saz are verbs here
+172 ghazal/sh254#1 1 بانگ nightingale sang (gol-bang)
+226 ghazal/sh329#25 0 - neither
+227 ghazal/sh332#7 1 مطرب
+228 ghazal/sh333#9 1 چنگ,آواز sweet-voiced; Venus plays the chang
+229 ghazal/sh334#6 0 - bow-shaped brow
+230 ghazal/sh335#7 1 چنگ,نی
+231 ghazal/sh336#4 1 رقص,مطرب
+232 ghazal/sh338#4 2 ساز 'saz o suz' - idiom or music?
+233 ghazal/sh340#7 0 - veil over faults
+234 ghazal/sh340#9 1 سماع,مطرب
+235 ghazal/sh342#1 0 - unveil
+236 ghazal/sh343#8 0 - unveil
+237 ghazal/sh344#4 0 - proclamation of love
+238 ghazal/sh348#6 1 چنگ
+239 ghazal/sh350#4 2 طرب banquet of joy
+240 ghazal/sh350#8 0 - verb make
+241 ghazal/sh350#9 1 بانگ,بربط,نی
+242 ghazal/sh351#2 1 مطرب,چنگ,بربط,آواز,نی
+243 ghazal/sh357#5 0 - veil of imagination
+244 ghazal/sh359#7 1 رقص atom dance
+245 ghazal/sh360#3 1 بربط
+246 ghazal/sh363#4 2 پرده,دستان pun: veil/mode and tale/tune?
+247 ghazal/sh364#5 0 - verb
+248 ghazal/sh366#6 0 - verb
+249 ghazal/sh367#5 1 رقص
+250 ghazal/sh371#6 0 - verb
+251 ghazal/sh372#3 0 - verb
+252 ghazal/sh372#6 1 رقص
+253 ghazal/sh373#3 1 چنگ
+254 ghazal/sh374#4 1 رود,سرود,مطرب
+255 ghazal/sh376#2 2 طرب time of joy
+256 ghazal/sh376#4 1 ساز organ-player metaphor (arghanun)
+257 ghazal/sh376#6 1 مطرب
+258 ghazal/sh377#4 2 طرب root of joy
+259 ghazal/sh377#7 1 ساز,پرده out of the mode / out of the veil pun
+260 ghazal/sh379#1 0 - loud voice
+261 ghazal/sh382#2 0 - verb
+262 ghazal/sh382#4 0 - verb
+263 ghazal/sh384#5 1 چنگ
+264 ghazal/sh386#6 1 بربط
+265 ghazal/sh388#1 2 طرب joy-inducing
+266 ghazal/sh391#7 1 دف,چنگ
+267 ghazal/sh398#3 1 دف,ساز,طرب,چنگ
+268 ghazal/sh400#8 2 ساز 'suz o saz' idiom
+269 ghazal/sh400#9 0 - verb
+270 ghazal/sh404#5 0 - beloved child (rud)
+271 ghazal/sh411#1 0 - curtain of the bud
+272 ghazal/sh411#6 0 - verb
+273 ghazal/sh413#8 1 ساز,مطرب
+274 ghazal/sh415#1 1 دستان nightingale singing tunes
+275 ghazal/sh419#10 0 - river
+276 ghazal/sh420#1 0 - unveiled
+277 ghazal/sh421#6 1 رباب
+278 ghazal/sh428#1 1 چنگ chang and chaghaneh
+279 ghazal/sh428#8 1 مطرب
+280 ghazal/sh429#11 0 - ney as a garden reed
+281 ghazal/sh430#1 1 صوت voice of nightingale and dove
+282 ghazal/sh430#5 1 دف,مطرب,نی
+283 ghazal/sh431#5 1 مطرب,پرده,چنگ
+284 ghazal/sh431#9 1 نی
+285 ghazal/sh432#2 1 مطرب,پرده pun on mode rast
+286 ghazal/sh433#8 0 - veil
+287 ghazal/sh440#8 1 رقص
+288 ghazal/sh441#5 0 - veil
+289 ghazal/sh442#8 1 پرده lament out of the mode / veil; songbirds
+290 ghazal/sh454#7 0 - veiled speech
+291 ghazal/sh454#10 0 - verb
+292 ghazal/sh454#11 2 طرب means of mirth
+293 ghazal/sh454#12 2 ساز new-year saz or fortune?
+294 ghazal/sh456#3 1 چنگ,پرده
+295 ghazal/sh459#2 0 - seven veils
+296 ghazal/sh460#3 1 بانگ song of Iraqi youths
+297 ghazal/sh460#6 1 سماع,چنگ
+298 ghazal/sh460#11 1 مطرب,صوت Iraqi mode
+299 ghazal/sh465#1 1 آواز nightingale song
+300 ghazal/sh465#5 1 آواز nightingale song
+301 ghazal/sh466#4 1 رباب,چنگ
+302 ghazal/sh471#10 0 - reed pen / sugar cane
+303 ghazal/sh473#7 2 طرب joy
+304 ghazal/sh474#3 1 رقص
+305 ghazal/sh478#4 0 - negation
+306 ghazal/sh479#1 0 - verb
+307 ghazal/sh479#4 1 مطرب
+308 ghazal/sh479#5 1 چنگ
+309 ghazal/sh479#6 1 صوت voice of the mughanni
+310 ghazal/sh485#6 0 - verb
+311 ghazal/sh486#1 1 بانگ nightingale song in maqamat
+312 ghazal/sh490#9 1 دف,نی
+313 ghazal/sh491#2 0 - bow-shaped brow
+314 ghazal/sh493#4 1 رقص
+315 ghazal/sh495#3 0 - intent
+316 ghazal/sh495#8 1 دستان birds with their tunes
+317 ghete/sh9#4 1 ساز,سماع Venus as song-maker
+318 ghete/sh26#4 1 ساز,آهنگ,رقص,چنگ
+319 ghete/sh33#4 1 مطرب
+320 robaee/sh2#1 2 طرب wine of joy
+321 robaee/sh10#1 0 - neither
+322 robaee/sh12#1 0 - neither
+323 robaee/sh14#1 0 - verb make
+324 robaee/sh38#1 2 طرب cup of joy
+325 robaee/sh39#1 1 بربط,نی
+326 ghaside/sh1#27 0 - equipment
+327 ghaside/sh1#36 0 - veil of the unseen
+328 ghaside/sh2#18 1 سماع sama of the pen
+329 ghaside/sh2#25 1 بانگ nightingale song
+330 ghaside/sh2#26 0 - out of the veil
+331 ghaside/sh2#31 0 - veil of the rose
+332 ghaside/sh2#32 2 طرب house of joy
+333 ghaside/sh3#3 1 چنگ
+334 ghaside/sh3#20 1 مطرب Iraq and Isfahan modes
+335 ghaside/sh3#42 0 - verb
+336 masnavi/masnavi#16 0 - apparatus
+337 masnavi/masnavi#26 0 - verb
+338 saghiname/saghiname#4 1 آواز,نی
+339 saghiname/saghiname#31 1 سرود,آواز,رود
+340 saghiname/saghiname#32 1 بانگ,رود,سرود
+341 saghiname/saghiname#33 1 رقص
+342 saghiname/saghiname#43 1 سرود,آواز,رود
+343 saghiname/saghiname#45 1 طرب saz kon is a verb here
+344 saghiname/saghiname#47 1 بانگ,رود,سرود
+345 saghiname/saghiname#49 1 پرده musical veil / mode
+346 saghiname/saghiname#50 1 آواز,رقص,چنگ
+347 saghiname/saghiname#51 0 - verb (the couplet asks for a tune, but the listed word is the verb)
+348 saghiname/saghiname#52 1 دف,ساز,نغمه,چنگ,آواز
+349 saghiname/saghiname#58 1 سرود

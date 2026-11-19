@@ -131,3 +131,38 @@ mark { background: var(--mark); color: inherit; border-radius: 4px; padding: 0 .
 
 .foot { padding-top: 2rem; padding-bottom: 3rem; color: var(--muted); font-size: .85rem; }
 .notice { background: var(--card); border: 1px solid var(--line); padding: 1rem; border-radius: var(--radius); }
+
+/* ---------- Embedded in another page (iframe) ----------
+   The host page supplies the title, introduction and back link, so those are hidden here,
+   and the colours are fixed to a dark palette that sits on the host's dark page. */
+html.embedded {
+  scroll-behavior: auto;
+  --bg: #0b0e13;
+  --card: #141821;
+  --ink: #f4f1ea;
+  --muted: #a9a69e;
+  --line: #262c36;
+  --accent: #e3a56d;
+  --accent-ink: #1a1510;
+  --mark: rgba(227, 165, 109, 0.28);
+  --chip: #1d232d;
+}
+html.embedded .top,
+html.embedded .intro > h1,
+html.embedded .intro > .lede { display: none; }
+html.embedded main { padding-top: 1.25rem; }
+html.embedded .foot { padding-bottom: 1.5rem; }
+/* Embedded: the index is a scrolling box, so the host page stays a sensible length. */
+html.embedded #list {
+  max-height: 640px;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  padding: 0 .5rem;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  scrollbar-color: var(--line) transparent;
+}
+html.embedded .item:last-child { border-bottom: 0; }
+@media (max-width: 560px) {
+  html.embedded #list { max-height: 520px; padding: 0 .25rem; }
+}

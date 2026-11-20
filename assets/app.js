@@ -3,12 +3,6 @@
 (function () {
   'use strict';
 
-  /* Embedded mode: the page is shown inside an iframe on another site (or opened with ?embed=1).
-     The host page supplies the title and introduction; this page tells it how tall it is. */
-  var EMBED = false;
-  try { EMBED = window.self !== window.top || /[?&]embed=1\b/.test(location.search); } catch (e) { EMBED = true; }
-  if (EMBED) document.documentElement.classList.add('embedded');
-
   var D = window.HMO_DATA;
   var $ = function (s, r) { return (r || document).querySelector(s); };
   function el(tag, cls, text) {
@@ -277,22 +271,8 @@
   if (fromLink) {
     select(fromLink, 'link');
     var t = $('#translation');
-    if (t && t.scrollIntoView && !EMBED) setTimeout(function () { t.scrollIntoView(); }, 50);
+    if (t && t.scrollIntoView) setTimeout(function () { t.scrollIntoView(); }, 50);
   } else {
     select(first.id, 'random');
-  }
-  /* Tell the host page our height, so the whole page scrolls instead of a box inside it. */
-  if (EMBED && window.parent && window.parent !== window) {
-    var lastH = 0;
-    var report = function () {
-      var h = Math.ceil(document.body.getBoundingClientRect().height);
-      if (h === lastH) return;
-      lastH = h;
-      window.parent.postMessage({ type: 'hmo:height', height: h }, '*');
-    };
-    if (window.ResizeObserver) new ResizeObserver(report).observe(document.body);
-    window.addEventListener('load', report);
-    window.addEventListener('resize', report);
-    report();
   }
 })();

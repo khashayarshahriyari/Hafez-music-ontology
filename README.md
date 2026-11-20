@@ -44,19 +44,28 @@ Add or correct a translation by editing `scripts/translations.json` (keyed by co
 
 Selecting a couplet updates the address, for example `index.html#ghazal/sh2/3` (work, poem number, couplet number). Opening such a link selects that couplet in section 2 and scrolls to it.
 
-## Hosting on GitHub Pages
+## Putting it on your website
 
-1. Create the repository and push this folder to it.
-2. In the repository, open Settings, then Pages, and publish from the `main` branch (root).
-3. The project page will be at `https://<user>.github.io/<repo>/`. The "← Home" link at the top of `index.html` points to `/`; change it if the project lives at a different path on your site.
+The page is a normal page of the personal site: it uses the same background photo (darkened), and its "back" link returns to the home page. `scripts/export_site.py` gathers everything it needs into `site/`:
 
-## Linking from your home page
-
-Add one line below the Temporal Entanglements link, for example:
-
-```html
-<a href="https://<user>.github.io/<repo>/">Hafez Music Ontology</a>
 ```
+site/
+  hafez-music-ontology.html     the page
+  hafez/                        app.js, style.css, lines.js, background.jpg
+```
+
+Upload the contents of `site/` to the root of the website repository (`hafez-music-ontology.html` next to `index.html`, and the `hafez` folder beside it). The home page already links to `hafez-music-ontology.html`.
+
+After changing the couplets, translations, text or styles here, run:
+
+```bash
+python3 -I scripts/build_lines.py
+python3 -I scripts/export_site.py
+```
+
+and upload `site/` again. Edit the introduction in `index.html` (the paragraphs under the `INTRODUCTION` comment), then run `export_site.py` so the website copy matches.
+
+The project also works on its own: `index.html` at the top level of this repository is the same page, and can be published with GitHub Pages (Settings, Pages, `main` branch, `/ (root)`).
 
 ## Live translation (optional, later)
 
@@ -65,9 +74,11 @@ The page ships with pre-translated couplets, so nothing needs configuring and no
 ## Layout
 
 ```
-index.html            the page
-assets/style.css      styles (light and dark themes)
+index.html            the page (edit the introduction here)
+assets/style.css      styles: photo background, wine palette (variables at the top)
 assets/app.js         random draw, selection, list, search, filters
+assets/background.jpg the background photo
 data/lines.json       built data (also data/lines.js, so the page works from file://)
-scripts/              fetch, candidate search, lexicon, curation ledger, build, translations, notes
+scripts/              fetch, candidate search, lexicon, curation ledger, build, export, translations, notes
+site/                 generated: the files to upload to the website
 ```
